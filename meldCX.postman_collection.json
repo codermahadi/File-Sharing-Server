@@ -1,0 +1,112 @@
+{
+	"info": {
+		"_postman_id": "267711c0-c786-4097-8673-468ac4c33825",
+		"name": "meldCX",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4023653",
+		"_collection_link": "https://speeding-star-1459.postman.co/workspace/School-Management-System-Api~9164d92e-90d4-435e-9c8e-51e67b31ed31/collection/4023653-267711c0-c786-4097-8673-468ac4c33825?action=share&creator=4023653&source=collection_link"
+	},
+	"item": [
+		{
+			"name": "filesStore",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "files",
+							"type": "file",
+							"src": [
+								"/Users/mahadihasan/Desktop/Screenshot 2023-05-10 at 8.28.53 AM.png",
+								"/Users/mahadihasan/Desktop/Screenshot 2023-05-04 at 10.47.39 AM.png"
+							]
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3001/files",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"files"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getFiles",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "files",
+							"type": "file",
+							"src": [
+								"/Users/mahadihasan/Desktop/Screenshot 2023-05-10 at 8.28.53 AM.png",
+								"/Users/mahadihasan/Desktop/Screenshot 2023-05-04 at 10.47.39 AM.png"
+							]
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3001/files/10f3f61ef0310e15abc9ab62284620cd3af6580abe0106f9c3b69f646ce64cdsf",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"files",
+						"10f3f61ef0310e15abc9ab62284620cd3af6580abe0106f9c3b69f646ce64cdsf"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "files",
+							"type": "file",
+							"src": [
+								"/Users/mahadihasan/Desktop/Screenshot 2023-05-10 at 8.28.53 AM.png",
+								"/Users/mahadihasan/Desktop/Screenshot 2023-05-04 at 10.47.39 AM.png"
+							]
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3001/files/10f3f61ef0310e15abc9ab62284620cd3af6580abe0106f9c3b69f646ce64cdsf",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3001",
+					"path": [
+						"files",
+						"10f3f61ef0310e15abc9ab62284620cd3af6580abe0106f9c3b69f646ce64cdsf"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
