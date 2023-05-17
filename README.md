@@ -15,7 +15,7 @@
 
 ## Installation
 
-1. Download from the google drive
+1. Download from the google drive or Clone from github repo
 2. Navigate to the project directory: `cd your-project`
 3. Install dependencies: `npm install`
 4. Install dependencies: `npm start` for run
@@ -26,6 +26,7 @@
 1. Modify the configuration file in the `.env` directory to fit your needs.
 2. Run the application: `npm start`
 3. Access the application in your browser at: `http://localhost:3001`
+4. Also added postman collection into root folder
 
 ## Configuration
 
